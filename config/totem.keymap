@@ -80,7 +80,7 @@ label= "BASE"                              ;
                     &kp Q       &kp W       &kp E           &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                     &mt A       &kp S       &kp D           &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI
     &mt LCTRL ESC   &mt LALT Z  &kp X       &kp C           &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RET
-                                            &mt LSHFT LGUI  &mo 1       &lt 4 SPACE     &kp BSPC    &mo 2       &kp RALT
+                                            &mt LSHFT LGUI  &mo NUMFUNC &lt SPACE       &kp BSPC    &mo SYM     &kp RALT
                         >;
                 };
 
@@ -106,7 +106,7 @@ label= "NUMFUNC"                           ;
                 &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
                 &kp LSHFT   &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &kp F6      &kp F7      &kp UP      &kp RIGHT
     &kp TAB     &kp DEL     &kp F8      &kp F9      &kp F10     &kp F11         &kp F12     &trans      &kp LEFT    &kp DOWN    &kp RALT    &kp BSPC      
-                                        &tog CSP    &kp CAPS      &kp SPACE          &mo ADJ     &kp KP_N0   &trans      
+                                        &tog CSP    &kp CAPS    &kp SPACE       &kp HOME    &mo KP_N0   &trans      
                         >;
                 };
 
