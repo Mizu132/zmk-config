@@ -52,17 +52,17 @@ label= "BASE"                              ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     A     ┃     S     ┃     D     ┃     F     ┃     G     ┃   ┃     H     ┃     J     ┃     K     ┃     L     ┃     ;:    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃  ESC/CTRL ┃   LALT/Z  ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,<    ┃     .>    ┃     /?    ┃   ENTER   ┃
+// ┃  ESC/CTRL ┃   LALT/Z  ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,<    ┃     .>    ┃     /?    ┃   BKSP    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃ SHIFT/WIN ┃    LAY1   ┃    SPC    ┃   ┃    BSPC   ┃    LAY2   ┃   RALT    ┃
+//                                     ┃ SHIFT/WIN ┃    LAY1   ┃    SPC    ┃   ┃   ENTER   ┃    LAY2   ┃   RALT    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷               ╷           ╷           ╷               ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                     &kp Q       &kp W       &kp E           &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                     &kp A       &kp S       &kp D           &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI
-    &mt ESC LCTRL   &mt LALT Z  &kp X       &kp C           &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RET
-                                            &mt LGUI LSHFT  &mo NUMFUNC &kp SPACE       &kp BSPC    &mo SYM     &kp RALT
+    &mt ESC LCTRL   &mt LALT Z  &kp X       &kp C           &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSPC
+                                            &mt LGUI LSHFT  &mo NUMFUNC &kp SPACE       &kp RET    &mo SYM     &kp RALT
                         >;
                 };
 
@@ -164,7 +164,7 @@ label= "CSP"                             ;
 
                 &kp LS(SPACE)   &kp LALT    &kp LC(LS(N)) &kp E       &kp J           &none       &none       &none       &none       &none
                 &kp LC(SPACE)   &kp M       &kp LA(LCTL)  &kp P       &kp B           &none       &none       &none       &none       &none
-    &kp LC(T)   &kp LC(Z)       &kp LC(Y)   &kp LC(C)     &kp LC(X)   &kp LC(V)       &none       &none       &none       &none       &none       &none        
+    &kp LC(T)   &kp LC(Z)       &kp LC(Y)   &trans     &kp LC(X)   &kp LC(V)       &none       &none       &none       &none       &none       &none        
                                             &tog BASE     &kp C       &kp SPACE       &none       &none       &none    
                         >;
                 };
