@@ -78,17 +78,17 @@ label= "NUMFUNC"                           ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃   SHIFT   ┃     F1    ┃    F2     ┃    F3     ┃    F4     ┃   ┃     F5    ┃    F6     ┃    F7     ┃     UP    ┃   RIGHT   ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃    TAB    ┃    LALT   ┃    F8     ┃    F9     ┃    F10    ┃    F11    ┃   ┃    F12    ┃           ┃    LEFT   ┃    DOWN   ┃    RALT   ┃   BSPC    ┃
+// ┃    CAPS   ┃    LALT   ┃    F8     ┃    F9     ┃    F10    ┃    F11    ┃   ┃    F12    ┃           ┃    LEFT   ┃    DOWN   ┃    RALT   ┃   BSPC    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    CSP    ┃    CAPS   ┃    SPC    ┃   ┃    HOME   ┃    LAY3   ┃    END    ┃
+//                                     ┃    CSP    ┃           ┃    TAB    ┃   ┃    HOME   ┃    LAY3   ┃    END    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
                 &kp LSHFT   &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &kp F6      &kp F7      &kp UP      &kp RIGHT
-    &kp TAB     &kp DEL     &kp F8      &kp F9      &kp F10     &kp F11         &kp F12     &trans      &kp LEFT    &kp DOWN    &kp RALT    &kp BSPC      
-                                        &tog CSP    &kp CAPS    &kp SPACE       &kp HOME    &mo KP_N0   &trans      
+    &kp CAPS    &kp LALT    &kp F8      &kp F9      &kp F10     &kp F11         &kp F12     &trans      &kp LEFT    &kp DOWN    &kp RALT    &kp BSPC      
+                                        &tog CSP    &trans    &kp TAB           &kp HOME    &mo KP_N0   &trans      
                         >;
                 };
 
@@ -114,7 +114,7 @@ label= "SYM"                               ;
                 &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET     &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR       
                 &trans      &trans      &trans      &trans      &trans          &kp MINUS     &kp EQUAL   &kp APOS    &kp LBKT    &kp RBKT 
     &trans      &trans      &trans      &trans      &trans      &trans          &kp UNDER     &kp PLUS    &kp DQT     &kp LBRC    &kp RBRC    &kp BSLH         
-                                        &trans      &mo ADJ_AUD &trans          &kp PIPE      &kp GRAVE   &kp TILDE      
+                                        &trans      &mo ADJ_AUD &trans          &kp PIPE      &trans      &kp GRAVE      
                         >;
                 };
 
