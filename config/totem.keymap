@@ -164,7 +164,7 @@ label= "CSP"                             ;
 
                 &kp LS(SPACE)   &kp LALT    &kp C         &kp E        &kp J           &none       &none       &none       &none       &none
                 &mt LGUI SPACE  &kp M       &kp X         &kp P        &kp B           &none       &none       &none       &none       &none
-    &mt LGUI T  &kp LGUI Z      &kp LGUI Y  &mt LGUI C    &mt LGUI X   &kp LGUI V      &none       &none       &none       &none       &none       &none        
+    &mt LGUI T  &kp LGUI Z      &kp LGUI Y  &mt LGUI C    &mt LGUI X   &mt LGUI V      &none       &none       &none       &none       &none       &none        
                                             &tog BASE     &kp LA(LGUI) &kp SPACE       &none       &none       &none    
                         >;
                 };
