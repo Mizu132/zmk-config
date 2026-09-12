@@ -7,7 +7,7 @@ manifest:
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: prospector                               
-      url-base: https://github.com/Mizu132/zmk-config-prospector   
+      url-base: https://github.com/t-ogura
       
   projects:
     - name: zmk
@@ -20,7 +20,7 @@ manifest:
       
     - name: prospector-zmk-module
       remote: prospector
-      revision: v2.2.2
+      revision: v2.2.3
       path: modules/prospector-zmk-module
   self:
     path: config
