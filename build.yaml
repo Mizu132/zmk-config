@@ -22,7 +22,7 @@ include:
   - board: seeeduino_xiao_ble
     shield: totem_left rgbled_adapter
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y -DCONFIG_ZMK_STATUS_ADVERTISEMENT=y -DCONFIG_ZMK_STATUS_ADV_KEYBOARD_NAME=\"TOTEM\" -DCONFIG_ZMK_STATUS_ADV_CENTRAL_SIDE=\"LEFT\"
   - board: seeeduino_xiao_ble
     shield: totem_right rgbled_adapter
 
